@@ -1,19 +1,19 @@
 /*==========  Desktop First  ==========*/
 /* Large Devices, Wide Screens */
 @media only screen and (max-width: 1200px) {
-  .main_banner {
+  .main_hero {
     padding: 170px 0 220px;
   }
 }
 /* Medium Devices, Desktops */
 @media only screen and (max-width: 992px) {
-  .main_banner {
+  .main_hero {
     padding: 100px 0 160px;
   }
-  .main_banner .mb_info > h1 {
+  .main_hero .mb_info > h1 {
     font-size: 45px;
   }
-  .main_banner .mb_info > .descr {
+  .main_hero .mb_info > .descr {
     margin-bottom: 20px;
   }
   section {
@@ -50,14 +50,14 @@
   #header .inner_header .right_slide_header .mnu_top > li.has_sub_menu:hover > .sub_menu::after {
     right: 15px;
   }
-  .main_banner {
+  .main_hero {
     padding: 50px 0 170px;
   }
-  .main_banner .img-responsive {
+  .main_hero .img-responsive {
     margin: 0 auto;
     max-width: 80%;
   }
-  .main_banner .mb_info > h1 {
+  .main_hero .mb_info > h1 {
     font-size: 40px;
   }
   section {
@@ -141,28 +141,28 @@
   #header .inner_header .right_slide_header .mnu_top > li.has_sub_menu::after {
     display: none;
   }
-  #top_banner .main_banner {
+  #top_hero .main_hero {
     padding: 20px;
   }
   .notif {
     font-size: 14px;
   }
-  .main_banner .mb_info {
+  .main_hero .mb_info {
     text-align: center;
   }
-  .main_banner .mb_info > h1 {
+  .main_hero .mb_info > h1 {
     font-size: 30px;
     margin-bottom: 24px;
   }
-  .main_banner .mb_info > .btns {
+  .main_hero .mb_info > .btns {
     flex-wrap: wrap;
     gap: 10px;
   }
-  .main_banner .mb_info > .btns > a {
+  .main_hero .mb_info > .btns > a {
     display: block;
     width: 100%;
   }
-  .main_banner .mb_info > .btns .btn_white {
+  .main_hero .mb_info > .btns .btn_white {
     margin-left: 0;
   }
   #advantages .notif {
