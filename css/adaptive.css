@@ -1,0 +1,196 @@
+/*==========  Desktop First  ==========*/
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1200px) {
+  .main_banner {
+    padding: 170px 0 220px;
+  }
+}
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+  .main_banner {
+    padding: 100px 0 160px;
+  }
+  .main_banner .mb_info > h1 {
+    font-size: 45px;
+  }
+  .main_banner .mb_info > .descr {
+    margin-bottom: 20px;
+  }
+  section {
+    padding: 80px 0;
+  }
+  #advantages .row_adv .item_adv > .heading {
+    margin: 16px 0;
+  }
+  #reviews {
+    padding: 170px 0;
+  }
+  #pre_footer .pf_info > .pf_images > img {
+    max-width: 33%;
+  }
+  .pf_info {
+    margin-bottom: 120px;
+  }
+  #footer .row_flex .col_footer_1,
+  #footer .row_flex .col_footer_3 {
+    width: 48%;
+    order: 2;
+  }
+  #footer .row_flex .col_footer_2 {
+    width: 100%;
+    margin-bottom: 30px;
+    order: 1;
+  }
+}
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+  #header .inner_header .right_slide_header > .btn_simple {
+    display: none;
+  }
+  #header .inner_header .right_slide_header .mnu_top > li.has_sub_menu:hover > .sub_menu::after {
+    right: 15px;
+  }
+  .main_banner {
+    padding: 50px 0 170px;
+  }
+  .main_banner .img-responsive {
+    margin: 0 auto;
+    max-width: 80%;
+  }
+  .main_banner .mb_info > h1 {
+    font-size: 40px;
+  }
+  section {
+    padding: 60px 0;
+  }
+  #advantages .heading_main h2 {
+    font-size: 34px;
+  }
+  #advantages .heading_main .description {
+    font-size: 16px;
+  }
+  .row_adv > div {
+    width: 50%;
+  }
+  .row_adv > div .item_adv {
+    text-align: center;
+    max-width: 240px;
+    margin: 0 auto;
+  }
+  #advantages .row_adv .item_adv > .heading {
+    margin: 10px 0;
+    font-size: 22px;
+  }
+  #advantages .row_adv .item_adv > .descr {
+    font-size: 14px;
+  }
+  section.information .img-responsive {
+    max-width: 70%;
+    margin: 0 auto 50px;
+  }
+  section.information .right_info {
+    padding: 0 10px;
+    text-align: center;
+  }
+  section.information .right_info .notif {
+    margin: 0 auto;
+  }
+  section.information .right_info > h3 {
+    font-size: 34px;
+  }
+  #footer {
+    padding: 30px 0;
+  }
+}
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+  .hamburger {
+    display: block;
+  }
+  #header {
+    position: relative;
+    padding-top: 14px;
+  }
+  #header .inner_header .right_slide_header .mnu_top {
+    display: none;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 70px;
+    width: 100%;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+    background-color: #ffffff;
+    z-index: 11;
+    padding: 10px 0;
+  }
+  #header .inner_header .right_slide_header .mnu_top > li {
+    display: block;
+  }
+  #header .inner_header .right_slide_header .mnu_top > li > a {
+    padding: 5px 15px;
+  }
+  #header .inner_header .right_slide_header .mnu_top > li > .sub_menu {
+    display: block;
+    padding-left: 15px;
+    position: relative;
+    top: auto;
+    box-shadow: none;
+    border-radius: initial;
+    animation: none;
+  }
+  #header .inner_header .right_slide_header .mnu_top > li.has_sub_menu::after {
+    display: none;
+  }
+  #top_banner .main_banner {
+    padding: 20px;
+  }
+  .notif {
+    font-size: 14px;
+  }
+  .main_banner .mb_info {
+    text-align: center;
+  }
+  .main_banner .mb_info > h1 {
+    font-size: 30px;
+    margin-bottom: 24px;
+  }
+  .main_banner .mb_info > .btns {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .main_banner .mb_info > .btns > a {
+    display: block;
+    width: 100%;
+  }
+  .main_banner .mb_info > .btns .btn_white {
+    margin-left: 0;
+  }
+  #advantages .notif {
+    font-size: 14px;
+  }
+  section {
+    padding: 40px 0;
+  }
+  #advantages .heading_main {
+    margin: 25px 0;
+  }
+  #advantages .heading_main > h2 {
+    font-size: 30px;
+  }
+  .row_adv > div {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .row_adv > div:last-child {
+    margin-bottom: 0;
+  }
+}
+/* Custom, iPhone Retina */
+/*==========  Mobile First  ==========*/
+/* Custom, iPhone Retina */
+/* Extra Small Devices, Phones */
+/* Small Devices, Tablets */
+/* Medium Devices, Desktops */
+/* Large Devices, Wide Screens */
+
+/*# sourceMappingURL=adaptive.css.map */
